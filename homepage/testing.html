@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 20px 60px;
+            background-color: wheat;
+        }
+        .flex-holder,
+        .chat{
+            display: flex;
+            background-color: white;
+            padding: 30px;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 90px;
+            
+            
+        }
+        /* .flex-holder-2{
+            display: flex;
+            background-color: white;
+            padding: 30px;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 100px;
+            position: absolute;
+        
+            
+            
+        } */
+        .trackable{
+            width: 25%;
+            margin-left: 250px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        
+            
+            
+        }
+        .trackable h2{
+            font-size: 28px;
+        }
+        .circle{
+            width: 40%;
+            
+        }
+        .circle img{
+            width: 40%;
+        }
+
+        .box{
+            width: 300px;
+            height: 250px;
+            background-color: red;
+            position: absolute;
+            top: 200px;
+            right: 0;
+            z-index: -1;
+        }
+        .circle-1{
+            width: 200px;
+            height: 200px;
+            /* background: green; */
+            border: 1px solid green;
+            border-radius: 100%;
+            position: absolute;
+            top: 38%;
+            right: 45%;
+            z-index: -1;
+        }
+        .chat-box{
+            width: 50%;
+            display: flex;
+            gap: 20px;
+            align-items: center;
+        }
+        .chat-box-1{
+            display: flex;
+            gap: 20px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid rgba(128, 128, 128, 0.623);
+            margin: 20px;
+            align-items: center;
+        }
+        .chat-box h3, p{
+            margin: 0;
+            padding: 0;
+        }
+        .collab{
+            width: 30%;
+        }
+        .chat-box-1{
+            display: flex;
+        
+        }
+        /* .chat-img{
+            width: 5%;
+        } */
+        .chat-img img{
+            width: 30px;
+            height: 30px;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <section class="flex-holder">
+        <div class="trackable">
+            <h2>Trackable progress</h2>
+            <p>Use cycle and lead time reports, burndown charts to khow efficiently your team is working</p>
+        </div>
+        <div class="circle">
+            <img src="./images/Group 41.png" alt="">
+        </div>
+    </section>
+
+
+    <div class="circle-1">
+
+    </div>
+    <div class="box">
+
+    </div>
+
+    <section class="chat">
+      <div class="chat-box">
+          <div class="chat-box-1">
+            <div class="chat-img"> <img src="./images/Group 36 (1).png" alt=""></div>
+            <div class="content">
+                <h3>David</h3>
+                <p>Have you checked the list i sent?</p>
+            </div>
+            <div class="time">
+                <h4>02:00pm</h4>
+                <img src="./images/Frame 136.png" alt="">
+            </div>
+          </div>
+      </div>
+      <div class="collab">
+        <h2>Collaborative</h2>
+        <p>Simple and effortless collaboration without any limitations. Everyone is invited to the party</p>
+      </div>
+    </section>
+</body>
+</html>
